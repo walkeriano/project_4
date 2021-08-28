@@ -1,0 +1,95 @@
+.bg_color{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 430px;
+    background-color: rgba(20, 39, 74, 0.5);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.img_banner{
+    position: absolute;
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.info_banner{
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 60px;
+    z-index: 1;
+    
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        list-style: none;
+        letter-spacing: 1px;
+    }
+
+    h2{
+        font-size: 2.8rem;
+    }
+
+    h4{
+        font-size: 1.3rem;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.8px;
+        font-size: 0.8rem;
+        margin-top: 15px;
+    }
+}
+
+.btn_book_now{
+    position: absolute;
+    left: 45.5%;
+    top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.70px;
+    padding: 10px 20px;
+    background: rgba(224, 185, 115, 1);
+    border-radius: 8px;
+    z-index: 1;
+    text-decoration: none;
+
+    &:hover{
+        background-color: white;
+        color: rgba(224, 185, 115, 1);
+        transform: scale(1.1);
+        transition: .8s ease;
+    
+    }
+}
+
+.div_scroll{
+    position: absolute;
+    top: 355px;
+    left: 49%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    span{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 1.0rem;
+    }
+
+    img{
+        width: 25px;
+        margin: auto;
+    }
+}

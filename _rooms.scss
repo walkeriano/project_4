@@ -1,0 +1,131 @@
+.section_rooms{
+    margin-top: 420px;
+    width: 100%;
+    height: 2820px;
+    background-color: white;
+
+    .p_section_rooms{
+        font-size: 1.5rem;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .p_section_rooms_2{
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .cont_rooms{
+        width: 70%;
+        margin: auto;
+
+        .div_cont_rooms{
+            margin-bottom: 80px;
+
+            .img_rooms{
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+           
+            .p_rooms{
+                padding: 15px;
+                text-align: center;
+                font-size: 1.2rem;
+                letter-spacing: 2px;
+                font-family: Arial, Helvetica, sans-serif;
+                background: rgba(224, 185, 115, 1);
+                color: white;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+
+            .btn_rooms{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .a1{
+                    margin-left: 60px;
+                    margin-top: 30px;
+                    padding: 10px 20px;
+                    font-size: 0.6rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    border: 1.5px solid rgba(224, 185, 115, 1);
+                    border-radius: 50px;
+                    color: rgba(224, 185, 115, 1);
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                }
+
+                .a2{
+                    margin-right: 60px;
+                    margin-top: 30px;
+                    padding: 10px 20px;
+                    font-size: 0.7rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: rgba(224, 185, 115, 1);
+                    border-radius: 50px;
+                    color: white;
+                    letter-spacing: 1px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+    .info_complement_3{
+        margin-top: 80px;
+
+        h2{
+            text-align: center;
+            font-size: 1.7rem;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: rgb(145, 145, 145);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+            a{
+                text-decoration: none;
+                margin: 10px;
+                padding: 4px 7px;
+                border-radius: 5px;
+                background-color: rgba(224, 185, 115, 1);
+                color: white;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: .8s ease;
+                }
+            }
+        }
+    }
+}
+
+.triangulo_sup_3 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid rgba(20, 39, 74, 1);
+    margin: auto;
+    margin-top: 50px;
+}

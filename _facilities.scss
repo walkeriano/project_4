@@ -1,0 +1,109 @@
+.section_facilities{
+    margin-top: 420px;
+    width: 100%;
+    height: 2350px;
+    background-color: white;
+
+    .p_section_fac{
+        font-size: 1.5rem;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .p_section_fac_2{
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .cont_facilities{
+        width: 70%;
+        margin: auto;
+
+        .div_cont_fac{
+            position: relative;
+            margin-bottom: 80px;
+
+            &:hover .p_fac{
+                transition: ease 0.5s;
+                background-color: rgba(94, 4, 4, 0);
+                border: 1px solid white;
+                color: white;
+            }
+
+            .img_fac{
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+           
+            .p_fac{
+                text-align: center;
+                position: absolute;
+                z-index: 1;
+                bottom: 0;
+                left: 38%;
+                padding: 10px 60px;
+                background-color: white;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                font-size: 0.8rem;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid white;
+            }
+        }
+    }
+    
+    .info_complement_2{
+        margin-top: 80px;
+
+        h2{
+            text-align: center;
+            font-size: 1.7rem;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: rgb(145, 145, 145);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+            a{
+                text-decoration: none;
+                margin: 10px;
+                padding: 4px 7px;
+                border-radius: 5px;
+                background-color: rgba(224, 185, 115, 1);
+                color: white;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: .8s ease;
+                }
+            }
+        }
+    }
+}
+
+.triangulo_sup_2 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid rgba(20, 39, 74, 1);
+    margin: auto;
+    margin-top: 50px;
+}

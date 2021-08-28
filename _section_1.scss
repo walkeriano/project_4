@@ -1,0 +1,205 @@
+.section_1{
+    margin-top: 400px;
+    width: 100%;
+    height: 1115px;
+    background-color: white;
+
+    .p_section_1{
+        color: rgb(145, 145, 145);
+        text-align: center;
+        padding-top: 70px;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 200px;
+        margin: auto;
+        border-left: 2px solid rgb(145, 145, 145);
+        margin-top: 120px;
+
+        &:hover{
+            border-left: 2px solid rgba(224, 185, 115, 1);
+        }
+
+        .img_sec_1{
+            width: 90%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 20px;
+            overflow: hidden;
+            
+            &:hover{
+                transform: scale(1.1);
+                transition: .8s ease;
+            }
+            
+        }
+
+        .div_sec{
+            width: 50%;
+
+            h2{
+                color: rgba(224, 185, 115, 1);
+                font-size: 1.7rem;
+                margin-left: 30px;
+                margin-bottom: 20px;
+            }
+            
+            p{  
+                color: rgb(145, 145, 145);
+                font-size: 0.9rem;
+                margin-left: 30px;
+                margin-bottom: 40px;
+            }
+
+            a{
+                text-decoration: none;
+                background-color: rgba(224, 185, 115, 1);
+                color: white;
+                padding: 8px 20px;
+                border-radius: 8px;
+                font-size: 0.8rem;
+                margin-left: 30px;
+                border: 1px solid rgba(224, 185, 115, 1);
+
+                &:hover{
+                    background-color: white;
+                    border: 2px solid rgba(224, 185, 115, 1);
+                    color: rgba(224, 185, 115, 1);
+                    transition: ease 1s;
+                }
+
+            }
+        }
+    }
+
+    .info_complement{
+        margin-top: 145px;
+
+        h2{
+            text-align: center;
+            font-size: 1.7rem;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: rgb(145, 145, 145);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+
+            a{
+                text-decoration: none;
+                margin: 10px;
+                padding: 4px 7px;
+                border-radius: 5px;
+                background-color: rgba(224, 185, 115, 1);
+                color: white;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: .8s ease;
+                }
+            }
+        }
+    }
+
+    
+}
+
+.triangulo_sup {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid rgba(20, 39, 74, 1);
+    margin: auto;
+    margin-top: 80px;
+}
+
+.section_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(20, 39, 74, 1);
+    padding: 50px 60px;
+
+    .divs_footer{
+
+        .name_hotel{
+            color: white;
+            font-size: 1.0rem;
+        }
+
+        .id_hotel{
+            color: white;font-size: 0.7rem;
+            padding-left: 18px;
+        }
+
+        .p_hotel{
+            color: white;
+            font-size: 0.6rem;
+            margin-top: 15px;
+        }
+
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 0.7rem;
+            margin: 10px;
+
+            &:hover{
+                border-bottom: 1px solid white;
+            }
+        }
+
+        .info_btn{
+            color: white;
+            font-size: 0.7rem;
+        }
+
+        .contc_btn{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 170px;
+            margin-top: 15px;
+
+            .info{
+                border: 1px solid rgba(224, 185, 115, 1);
+                border-radius: 5px;
+                width: 90%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: rgba(224, 185, 115, 1);
+                font-size: 0.7rem;
+                padding-left: 10px;
+            }
+
+            .btn{
+                padding: 9px 15px;
+                text-align: center;
+                background-color: rgba(224, 185, 115, 1);
+                color: rgba(20, 39, 74, 1);
+                margin: 0;
+                border-radius: 5px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+   
+}
